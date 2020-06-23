@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="styles.css">
+		<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+	</head>
+	
+  	<body>
+  		<section id="title-heading" class="heading" name="title">
+	    	<h1 id="title">Ice Cream Survey</h1>
+    	  		<p id="description"><i>A short survey on ice cream and how it is eaten.</i></p>
+      	</section>
+      	<section id="survey-form-section">
+      		<form id="survey-form" action="/submit-survey-form">
+      			
+      			<section id="info-section-heading" class="heading" name="info">
+      				<h2 id="info-section">
+      			</section>
+      			
+      			<section id="info-section">	
+      				<label id="name-label">Name
+      					<input id="name" type="text" placeholder="Fill in Your Name" required></label><br>
+      				<label id="email-label">Email
+      					<input id="email" type="email" placeholder="Fill in Your Email" required></label><br><br>
+   					<label id="number-label">Enter the number of days since you had some ice cream.<br>
+   						<input id="number" type="number" min="0" max="110" placeholder="Enter Number" required></label><br>
+   				</section>
+   				
+   				<section id="flavor-section-heading" class="heading" name="flavors">
+ 			     	<h2 id="ic-flavors">Ice Cream Flavor</h2>
+      					<p><i>Select one ice cream flavor from those listed below.</i></p>
+      			</section>
+      		
+      			<section id="flavor-section">
+      				<label id="icf-1-label">Cherry Chocolate Chunk
+        				<input id="cherry-chocolate-chunk" name="ic-flavors" type="radio" value="cherry-chocolate-chunk"><br>
+        			<label id="icf-2-label">Cookies and Cream
+        				<input id="cookies-and-cream" name="ic-flavors" type="radio" value="cookies-and-cream"><br>
+        			<label id="icf-3-label">Root Beer Float
+        				<input id="Rootbeer-Float" name="ic-flavors" type="radio" value="rootbeer-float"><br>
+        			<label id="icf-4-label">Mint Chocolate Chip
+        				<input id="Mint-Chocolate-Chip" name="ic-flavors" type="radio" value="mint-chip"><br>
+        			<label id="icf-5-label">Other
+        				<input id="other-ic-flavor" name="ic-flavors" type="radio" value="other-flavor"><br>
+        		</section>
+        		
+        		<section id="brand-section-heading" class="heading" name="brands">		
+			        <h2 id="ic-brands">Ice Cream Brand</h2>
+    			    	<p><i>Select one ice cream brand from the dropdown list.</i></p>
+        		</section>
+        		
+      			<section id="brand-section">
+      				<label id="icb-label">List of Brands<br>
+      					<select id="dropdown" name="ic-brands" size="3">
+      						<option value="" selected>Please select a brand</option>
+      						<option value="Tillamook">Tillamook</option>
+      						<option value="Blue-Bunny">Blue Bunny</option>
+      						<option value="Ben-&-Jerrys">Ben & Jerry's</option>
+      						<option value="Dreyers">Dreyers</option>
+      						<option value="Other-brand">Other</option>
+      					</select>
+				</section>
+				
+				<section id="topping-section-heading" class="heading" name="toppings">
+					<h2 id="ic-toppings" name="ic-toppings">Ice Cream Topping</h2>
+						<p><i>Select one ice cream topping from those listed below.</i></p>
+				</section>
+				
+      			<section id="topping-section">
+      				<label id="ic-toppings-label">Chocolate Syrup
+      					<input id="Chocolate-syrup" name="ic-toppings" type="radio" value="Chocolate-syrup"><br>
+      				<label id="ic-toppings-label">Whipped Cream
+      					<input id="Whipped-cream" name="ic-toppings" type="radio" value="Whipped-Cream"><br>
+      				<label id="ic-toppings-label">Chopped Nuts
+      					<input id="Chopped-Nuts" name="ic-toppings" type="radio" value="Chopped-Nuts"><br>
+      				<label id="ic-toppings-label">Cherries
+      					<input id="Cherries" name="ic-toppings" type="radio" value="Cherries"><br>
+      				<label id="ic-toppings-label">Sprinkles
+      					<input id="sprinkles" name="ic-toppings" type="radio" value="Sprinkles"><br>
+      				<label id="ic-toppings-label">Other
+      					<input id="other-toppings" name="ic-toppings" type="radio" value="other-toppings"><br>
+				</section>
+				
+				<section id="method-section-heading" class="heading" name="methods">
+			      	<h2 id="ic-methods" name="ic-methods">Method of Eating Ice Cream</h2>
+      					<p><i>Select one method for eating ice cream from those listed below.</i></p>
+      			</section>
+      			
+      			<section id="method-section">
+      				<label id="ic-methods-label">Bowl & Spoon
+      					<input id="Bowl-&-Spoon" name="ic-methods" type="radio" value="Bowl-&-Spoon"><br>
+      				<label id="ic-methods-label">Waffle Cone
+      					<input id="Waffle-cone" name="ic-methods" type="radio" value="Waffle-cone"><br>
+      				<label id="ic-methods-label">Sugar Cone
+      					<input id="Sugar-cone" name="ic-methods" type="radio" value="Sugar-cone"><br>
+      				<label id="ic-methods-label">Float or Freeze
+      					<input id="Float-or-Freeze" name="ic-methods" type="radio" value="Float-or-Freeze"><br>
+      				<label id="ic-methods-label">Other
+      					<input id="Other-methods" name="ic-methods" type="radio" value="other-methods"><br>
+      			</section>
+      			
+      			<section id="survey-section-heading" class="heading" name="survey-heading">
+      				<h2 id="survey-survey-heading" name="survey-survey-heading">Did you enjoy this survey?</h2>
+      				<p><i>From the options below tell us how much you enjoyed the survey.</i></p>
+      			</section>
+      			
+      			<section id="survey-section" class="survey" name="survey-enjoyment">
+      				<label for="best-survey-ever"><input id="best-survey-ever" type="checkbox" name="enjoyment" value="Best-Survey-Ever"> Best Survey Ever</label>
+      				<label for="OK"><input id="OK" type="checkbox" name="enjoyment" value="OK"> OK</label>
+      				<label for="meh"><input id="meh" type="checkbox" name="enjoyment" value="Meh"> Meh</label>
+      			</section>
+      			
+      			<section id="comment-section-heading" class="heading" name="comments">
+			      	<h2 id="ic-comments-label">Additional Comments</h2>
+      					<p><i>If you have any comments</i></p>
+      			</section>
+      			
+      			<section id="comment-section">
+      				<textarea id="ic-comments" name="ic-comments" rows="6" columns="50">Type comments here...</textarea>
+      			</section>
+      			
+      			<section id="form-submit-heading" class="heading" name="submit">
+      				<h2 id="form-submit-label">Submit the Survey</h2>
+      					<p><i>Click the button below to submit the form</i></p>
+      			
+      				<input id="submit" type="submit" value="Submit">
+      			</section>
+      		</form>
+    	</section>
+ 	</body>
+ </html>

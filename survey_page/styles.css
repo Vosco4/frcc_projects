@@ -1,0 +1,67 @@
+#description {
+	padding-top: 25px;
+	margin-top: -50px;
+	padding-bottom: 35px;	
+}
+
+h1 {
+	font-size: 65px;
+	padding-top: 35px;
+	padding-bottom: 35px;
+	margin-bottom: -45px;
+}
+
+#survey-form {
+	padding-top: 30px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+label {
+  font-size: 105%;
+}
+
+section[name="title"]{
+	display: block;
+	font-family: sans-serif;
+	text-align: center;
+	background: #72c6a3;
+	color: white;
+}
+
+/* Sets the info section header background to blue */
+section[name="info"]{
+	background-color: #1828c9;
+}
+
+/* Sets the flavors section header background to orange */
+section[name="flavors"]{
+	background-color: #da792c;
+}
+
+/* Sets the brands section header background to red */
+section[name="brands"]{
+	background-color: #da152c;
+}
+
+/* Sets the toppings section header background to yellow */
+section[name="toppings"]{
+	background: #e2d400;
+}
+
+/* Sets the methods section background to purple */
+section[name="methods"]{
+	background: #8d24c0;
+}
+
+/* Sets the comments section header background to teal */
+section[name="comments"]{
+	background: #4fb9a7;
+}
+
+/* Sets survey enjoyment section background to green */
+section[name="survey-heading"]{
+	background-color: #1fc040;
+}
